@@ -1,7 +1,7 @@
 ﻿Import-Module ActiveDirectory
 $listbitlockerstatus=@("hostname,IsEnableBitlocker")
-$ListOU=@("OU=Romania-PC-Give-Admin,OU=WorkStations,OU=DomainComputers,DC=gsc,DC=huawei,DC=com",
-"OU=Romania-PC-Remove-Admin,OU=WorkStations,OU=DomainComputers,DC=gsc,DC=huawei,DC=com")
+$ListOU=@("OU=Romania-PC-Give-Admin,OU=WorkStations,OU=DomainComputers,DC=abc,DC=def,DC=com",
+"OU=Romania-PC-Remove-Admin,OU=WorkStations,OU=DomainComputers,DC=abc,DC=def,DC=com")
 
 $ListOU | ForEach-Object{
     $OU=$_.ToString()

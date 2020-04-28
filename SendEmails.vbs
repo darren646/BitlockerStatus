@@ -1,9 +1,9 @@
 ﻿'Send Log File
 Set objMessage = CreateObject("CDO.Message") 
-objMessage.Subject = "[Compliance] GSC Romaina Bitlocker Checking" 
-objMessage.From = "admin@gsc.huawei.com" 
-objMessage.To = "adrian.iosub@huawei.com;baluta.cosmin@huawei.com;victor.pulca@huawei.com;dan.toda@huawei.com;liyongling@huawei.com;gscithelpdesk@huawei.com;yanyouhong@huawei.com;sircgsc@huawei.com" 
-objMessage.TextBody = "GSC Romaina Bitlocker Checking."
+objMessage.Subject = "[Compliance] ABC Romaina Bitlocker Checking"
+objMessage.From = "admin@abc.def.com"
+objMessage.To = "abc@abc.def.com.com;ttc@abc.com"
+objMessage.TextBody = "ABC Romaina Bitlocker Checking."
 ystr=year(Now)
 mstr=Month(Now)
 if len(mstr)<2 then mstr="0"&mstr
